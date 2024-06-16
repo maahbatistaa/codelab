@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 :root {
   --brand-color-purple: #8958ff;
   --brand-color-green: #00ff73;
+
   --dark-10: #161618;
   --dark-20: #1c1c1f;
   --dark-30: #232326;
   --dark-40: #34343a;
-  --dark-50: #ffffff;
+
+  --white: #ffffff;
 }
 
 * {
@@ -14,6 +18,67 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--dark-10);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
 header {
+  width: 100%;
   background: var(--dark-20);
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1.625rem 0 1.625rem 0;
+}
+
+nav {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  color: var(--brand-color-purple);
+}
+
+#sobre {
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  gap: 260px;
+}
+
+.container-sobre h2 {
+  font-size: 1.5rem;
+  line-height: 1.813rem;
+  color: var(--brand-color-green);
+  margin-bottom: 1rem;
+}
+
+.container-sobre h1 {
+  font-size: 3rem;
+  line-height: 3.6rem;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.container-sobre p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: var(--white);
+  width: 550px;
 }
