@@ -1,0 +1,19 @@
+:root {
+  --brand-color-purple: #8958ff;
+  --brand-color-green: #00ff73;
+  --dark-10: #161618;
+  --dark-20: #1c1c1f;
+  --dark-30: #232326;
+  --dark-40: #34343a;
+  --dark-50: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: var(--dark-20);
+}
