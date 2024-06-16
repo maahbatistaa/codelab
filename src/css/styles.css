@@ -59,6 +59,7 @@ a:hover {
   align-items: center;
   justify-items: space-between;
   gap: 260px;
+  margin-top: 2rem;
 }
 
 .container-sobre h2 {
